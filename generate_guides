@@ -1,0 +1,21 @@
+#!/usr/bin/env ruby
+#
+# frozen_string_literal: true
+#
+puts Time.now.to_s
+
+if ARGV[0] == "r"
+  puts "rm -rf docs/**"
+  `rm -rf docs/**`
+  puts "cp CNAME docs"
+  `cp CNAME docs`
+end
+
+puts "bundle exec rake guides:generate"
+`bundle exec rake guides:generate`
+
+puts "============"
+
+Dir["docs/*.html"].each do |path|
+  puts File.expand_path(File.dirname(__FILE__)) + "/" + path
+end

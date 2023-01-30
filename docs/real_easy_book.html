@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="baidu-site-verification" content="N1Q3HiESgp" />
+
+<title>Real Easy Book Notes — dengqinghua&#39;s blog</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/syntaxhighlighter/shCore.css" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/syntaxhighlighter/shThemeRailsGuides.css" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/fixes.css" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/abcjs-midi.css" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/gitalk.css" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/asciinema-player.css" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/Treant.css" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/zoom.css" />
+  <link href="images/favicon.jpeg" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/font-awesome.min.css" />
+</head>
+<body class="guide">
+  <div id="topNav">
+    <div class="wrapper">
+
+      <strong class="more-info-label">More:</strong>
+
+      <span class="red-button more-info-button">More Dengqinghua</span>
+      <ul class="more-info-links s-hidden">
+        <li class="more-info"><a href="https://www.dengqinghua.net">About me</a></li>
+        <li class="more-info"><a href="https://github.com/dengqinghua/">Github</a></li>
+        <li class="more-info"><a href="mailto:dengqinghua.42@gmail.com">Gmail</a></li>
+        <li class="more-info"><a href="https://twitter.com/dengqinghua_42">Twitter</a></li>
+      </ul>
+
+      <form action="https://google.com/search" method="get">
+          <input name="q" value="site:dengqinghua.net" type="hidden">
+          <input class="search" name="q" placeholder="Search Blog" type="text">
+      </form>
+    </div>
+  </div>
+  <div id="header">
+    <div class="wrapper clearfix">
+      <h1><a href="https://blog.dengqinghua.net" title="Return to home page">http://blog.dengqinghua.net</a></h1>
+      <ul class="nav">
+        <li><a class="nav-item" href="https://blog.dengqinghua.net">Home</a></li>
+        <li class="guides-index guides-index-large">
+          <a href="index.html" id="guidesMenu" class="guides-index-item nav-item">
+            Index <span id="guidesArrow">▸</span>
+          </a>
+
+          <div id="guides" class="clearfix" style="display: none;">
+            <hr />
+              <dl class="L">
+                <dt>2019年</dt>
+                <dd><a href="badge_system.html">基于内存数据库的角标系统设计</a></dd>
+                <dd><a href="witness_flow.html">业务流引擎系统</a></dd>
+                <dt>2018年</dt>
+                <dd><a href="ruby_knowledge_tree.html">Ruby知识树</a></dd>
+                <dd><a href="ruby_model.html">Ruby数据模型</a></dd>
+                <dd><a href="arel.html?lang=en">Arel源码分析</a></dd>
+                <dd><a href="sidekiq_task_event.html">基于Sidekiq的异步任务管理引擎</a></dd>
+                <dd><a href="racc.html">Racc</a></dd>
+                <dd><a href="witness_flow.html">业务流引擎系统</a></dd>
+                <dd><a href="data_structures.html">数据结构</a></dd>
+                <dd><a href="learn_jvm.html">JVM剖析</a></dd>
+                <dd><a href="concurrency.html">Concurrency</a></dd>
+                <dd><a href="badge_system.html">基于内存数据库的角标系统设计</a></dd>
+                <dd><a href="maven_under_command_line.html">命令行下的Maven</a></dd>
+                <dd><a href="mysql_knowledge_tree.html">MySQL知识树</a></dd>
+                <dd><a href="go_knowledge_tree.html">Go知识树</a></dd>
+                <dd><a href="music_index.html">音乐学习体系</a></dd>
+                <dd><a href="songbooks.html">曲谱集</a></dd>
+                <dd><a href="example_markdown.html">markdown格式实例</a></dd>
+                <dd><a href="comments.html">注释规范</a></dd>
+                <dd><a href="best_programming.html">零bug落地方案</a></dd>
+                <dd><a href="raft.html">Raft算法</a></dd>
+                <dd><a href="memorize_my_mentor.html">Memorize My Mentor</a></dd>
+              </dl>
+              <dl class="R">
+              </dl>
+          </div>
+        </li>
+        <li class="guides-index guides-index-small">
+          <select class="guides-index-item nav-item">
+            <option value="index.html">Index</option>
+              <optgroup label="2019年">
+                  <option value="badge_system.html">基于内存数据库的角标系统设计</option>
+                  <option value="witness_flow.html">业务流引擎系统</option>
+              </optgroup>
+              <optgroup label="2018年">
+                  <option value="ruby_knowledge_tree.html">Ruby知识树</option>
+                  <option value="ruby_model.html">Ruby数据模型</option>
+                  <option value="arel.html?lang=en">Arel源码分析</option>
+                  <option value="sidekiq_task_event.html">基于Sidekiq的异步任务管理引擎</option>
+                  <option value="racc.html">Racc</option>
+                  <option value="witness_flow.html">业务流引擎系统</option>
+                  <option value="data_structures.html">数据结构</option>
+                  <option value="learn_jvm.html">JVM剖析</option>
+                  <option value="concurrency.html">Concurrency</option>
+                  <option value="badge_system.html">基于内存数据库的角标系统设计</option>
+                  <option value="maven_under_command_line.html">命令行下的Maven</option>
+                  <option value="mysql_knowledge_tree.html">MySQL知识树</option>
+                  <option value="go_knowledge_tree.html">Go知识树</option>
+                  <option value="music_index.html">音乐学习体系</option>
+                  <option value="songbooks.html">曲谱集</option>
+                  <option value="example_markdown.html">markdown格式实例</option>
+                  <option value="comments.html">注释规范</option>
+                  <option value="best_programming.html">零bug落地方案</option>
+                  <option value="raft.html">Raft算法</option>
+                  <option value="memorize_my_mentor.html">Memorize My Mentor</option>
+              </optgroup>
+          </select>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <hr class="hide" />
+
+  <div id="feature">
+    <div class="wrapper">
+      <h2>Real Easy Book Notes</h2><p>本文档对 <a href="https://www.amazon.com/Real-Easy-Book-Level-Improvisers/dp/1883217156">Real Easy Book</a> 这本书的一些记录和总结.</p><p>阅读完该文档之后, 您将了解到[Real Easy Book]这本书:</p>
+<ul>
+<li>曲目分析.</li>
+<li>和弦/音阶和节奏的思考.</li>
+</ul>
+
+
+                <div id="subCol">
+            <h3 class="chapter"><img src="images/chapters_icon.gif" alt="" />Chapters</h3>
+            <ol class="chapters">
+<li>
+<a href="#bags-groove">Bags' Groove</a>
+
+<ul>
+<li><a href="#bags-groove-%E9%A3%8E%E6%A0%BC">风格</a></li>
+<li><a href="#bags-groove-%E5%92%8C%E5%BC%A6">和弦</a></li>
+<li><a href="#bags-groove-%E9%9F%B3%E9%98%B6">音阶</a></li>
+</ul>
+</li>
+<li>
+<a href="#big-bertha">Big Bertha</a>
+
+<ul>
+<li><a href="#big-bertha-%E9%A3%8E%E6%A0%BC">风格</a></li>
+<li><a href="#big-bertha-%E5%92%8C%E5%BC%A6">和弦</a></li>
+<li><a href="#big-bertha-%E9%9F%B3%E9%98%B6">音阶</a></li>
+</ul>
+</li>
+</ol>
+
+          </div>
+
+    </div>
+  </div>
+
+  <div id="container">
+    <div class="wrapper">
+      <div id="mainCol">
+        <h3 id="bags-groove"><a class="anchorlink" href="#bags-groove">1 Bags' Groove</a></h3><h4 id="bags-groove-风格"><a class="anchorlink" href="#bags-groove-%E9%A3%8E%E6%A0%BC">1.1 风格</a></h4><div class="code_container">
+<pre class="brush: plain; gutter: false; toolbar: true;">
+1=F
+
+</pre>
+</div>
+<p>TYPE: 12小节 blues, 原曲, 慢速 swing</p><h4 id="bags-groove-和弦"><a class="anchorlink" href="#bags-groove-%E5%92%8C%E5%BC%A6">1.2 和弦</a></h4><div class="code_container">
+<pre class="brush: plain; gutter: false; toolbar: true;">
+F7 F7 F7 F7
+
+Bb7 Bb7 F7 F7
+
+Gm7 C7 F7 C7
+
+</pre>
+</div>
+<div class="code_container">
+<pre class="brush: plain; gutter: false; toolbar: true;">
+F G A bB C D E
+
+</pre>
+</div>
+<div class="code_container">
+<pre class="brush: plain; gutter: false; toolbar: true;">
+F7     Bb7   C7   Gm7
+4      b7    1    5
+b6/6   2     3    b7
+       4
+b3     b6    b7   4
+
+</pre>
+</div>
+<h4 id="bags-groove-音阶"><a class="anchorlink" href="#bags-groove-%E9%9F%B3%E9%98%B6">1.3 音阶</a></h4><h5 id="f-blues-scale"><a class="anchorlink" href="#f-blues-scale">1.3.1 F Blues Scale</a></h5><div class="code_container">
+<pre class="brush: plain; gutter: false; toolbar: true;">
+1 b3 4  b5 5 b7
+F bA bB bC C bE
+
+4 b6 b7 b1 1 b3
+
+</pre>
+</div>
+<div class="code_container">
+<pre class="brush: plain; gutter: false; toolbar: true;">
+1       b3      4       b5       5       b7       1
+ 小三度   大二度  小二度   小二度  小三度   大二度
+
+1       b3
+    小三度
+
+1              4
+    纯四度
+
+1                     b5
+    减五度
+
+1                                5
+    纯五度
+
+1                                        b7
+    减七度
+
+        b3                                        1
+                                  大六度
+
+                4                                 1
+                                  纯五度
+
+                        b5                        1
+                                  增四度
+                                 5                1
+                                  纯四度
+                                         b7       1
+                                           大二度
+
+</pre>
+</div>
+<div>
+<hr>
+<div id="midi-0b11d14549c61098a99ecd36ba17c2ea"></div>
+<div id="canvas-0b11d14549c61098a99ecd36ba17c2ea"></div>
+<a href="javascript:void(0);" id="edit-0b11d14549c61098a99ecd36ba17c2ea">Edit Tab</a>
+<textarea style="display:none" class="music" id="0b11d14549c61098a99ecd36ba17c2ea">
+Q: 80
+K: F
+L: 1/8
+| F_A B_c =c_e f2 |
+</textarea>
+<hr>
+</div>
+<h3 id="big-bertha"><a class="anchorlink" href="#big-bertha">2 Big Bertha</a></h3><h4 id="big-bertha-风格"><a class="anchorlink" href="#big-bertha-%E9%A3%8E%E6%A0%BC">2.1 风格</a></h4><div class="code_container">
+<pre class="brush: plain; gutter: false; toolbar: true;">
+1=bD
+
+</pre>
+</div>
+<div class="code_container">
+<pre class="brush: plain; gutter: false; toolbar: true;">
+b2 b3  4  b5 b6 b7 1
+I  II III IV V  VI VII
+
+</pre>
+</div>
+<h4 id="big-bertha-和弦"><a class="anchorlink" href="#big-bertha-%E5%92%8C%E5%BC%A6">2.2 和弦</a></h4><h5 id="bbmi6"><a class="anchorlink" href="#bbmi6">2.2.1 BbMi6</a></h5><div class="code_container">
+<pre class="brush: plain; gutter: false; toolbar: true;">
+b7 b2 4 5 b6
+
+</pre>
+</div>
+<div class="chord">
+  <div class="chordSvg" data-shape="6x5666" data-root="1" data-name=""> </div>
+
+  <div class="play">
+    <span class="play-arpeggio">
+      <img src="images/speaker.png" height="11" width="11"> 慢速(Arpeggio)
+    </span>
+
+    <span class="play-strum">
+      <img src="images/speaker.png" height="11" width="11"> 中速(Strum)
+    </span>
+
+    <span class="play-tone">
+      <img src="images/speaker.png" height="11" width="11"> 快速(Tone)
+    </span>
+  </div>
+</div>
+<h5 id="f7-ab7-gb7"><a class="anchorlink" href="#f7-ab7-gb7">2.2.2 F7 Ab7 Gb7</a></h5><p>F7: <code>4 6 1 b3</code></p><p>Ab7: <code>b6 1 b3 b5</code></p><p>Gb7: <code>b5 b7 b2 b4</code></p><h4 id="big-bertha-音阶"><a class="anchorlink" href="#big-bertha-%E9%9F%B3%E9%98%B6">2.3 音阶</a></h4><h5 id="bb-blues-scale"><a class="anchorlink" href="#bb-blues-scale">2.3.1 Bb Blues Scale</a></h5><div class="code_container">
+<pre class="brush: plain; gutter: false; toolbar: true;">
+1       b3      4       b5       5       b7       1
+ 小三度   大二度  小二度   小二度  小三度   大二度
+
+</pre>
+</div>
+<div class="code_container">
+<pre class="brush: plain; gutter: false; toolbar: true;">
+b7       b2      b3     b4       4       b6       b7
+ 小三度   大二度  小二度   小二度  小三度   大二度
+
+</pre>
+</div>
+<div>
+<hr>
+<div id="midi-7dc55188409e64ad8e1defd92ec1d3f5"></div>
+<div id="canvas-7dc55188409e64ad8e1defd92ec1d3f5"></div>
+<a href="javascript:void(0);" id="edit-7dc55188409e64ad8e1defd92ec1d3f5">Edit Tab</a>
+<textarea style="display:none" class="music" id="7dc55188409e64ad8e1defd92ec1d3f5">
+Q: 80
+K: Bb
+L: 1/8
+| B_d e_f =f_a b2 |
+</textarea>
+<hr>
+</div>
+<h5 id="bb-dorian-scale"><a class="anchorlink" href="#bb-dorian-scale">2.3.2 Bb Dorian Scale</a></h5><div class="info"><p>推荐观看 <a href="https://www.youtube.com/watch?v=WExmjdfPN64">好和弦 Ionian/Dorian/Aeolian 調式</a> 和 <a href="https://www.youtube.com/watch?v=2zvYb3TLVvk">Important Chords of the Dorian Mode</a></p></div>
+<blockquote>
+<p>Dorian(b3 6 b7) 跟 Aeolian(b3 b6 b7) 很像, 由于 Dorian 为大六度, 不会像 Aeolian 那么悲伤, 会给人一种很神圣的感觉
+所以 Dorian 非常关键为这个 大六度 的音.</p>
+</blockquote>
+<p>首调</p><div class="code_container">
+<pre class="brush: plain; gutter: false; toolbar: true;">
+1 2 b3 4 5 6 b7 1
+
+</pre>
+</div>
+<p>1 b3 b7 5</p><div>
+<hr>
+<div id="midi-3ef2461aa5c5f12a8321bd577b2cfb17"></div>
+<div id="canvas-3ef2461aa5c5f12a8321bd577b2cfb17"></div>
+<a href="javascript:void(0);" id="edit-3ef2461aa5c5f12a8321bd577b2cfb17">Edit Tab</a>
+<textarea style="display:none" class="music" id="3ef2461aa5c5f12a8321bd577b2cfb17">
+Q: 80
+K: C
+L: 1/8
+|CD _EF GA _Bc|
+</textarea>
+<hr>
+</div>
+<p>和弦</p>
+<ul>
+<li>I   Cm7   1 b3 5 b7</li>
+<li>IV  F7    4 6 1 b3</li>
+<li><p>V   Gm7   5 b7 2 4</p></li>
+<li><p>II  Dm7   2 4 6 1</p></li>
+<li><p>III b3M7  b3 5 b7 2</p></li>
+<li><p>VI  Adim7 6 1 b3 2 (这个和弦也非常有 Dorian 的味道, 可以改为 Am9 6 1 3 7)</p></li>
+<li><p>VII BbM7 b7 2 4 6</p></li>
+</ul>
+<p>Bb</p><div class="code_container">
+<pre class="brush: plain; gutter: false; toolbar: true;">
+b7 1 b2 b3 4 5(这个是大六度音, 非常关键) b6 b7
+
+</pre>
+</div>
+<div>
+<hr>
+<div id="midi-d828ace45940440457feda346b2b1ecc"></div>
+<div id="canvas-d828ace45940440457feda346b2b1ecc"></div>
+<a href="javascript:void(0);" id="edit-d828ace45940440457feda346b2b1ecc">Edit Tab</a>
+<textarea style="display:none" class="music" id="d828ace45940440457feda346b2b1ecc">
+Q: 80
+K: Bb
+L: 1/8
+|B,C _DE FG _AB|
+</textarea>
+<hr>
+</div>
+<p>特征的和弦为 <code>BbMi6</code></p>
+
+        <div id="comment"></div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="hide" />
+  <div id="footer">
+    <div class="wrapper">
+      <p>版权声明：自由转载-非商用-非衍生-保持署名(<a href="https://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh">创意共享3.0许可证</a>)</p>
+<p>
+  <a href="https://github.com/996icu/996.ICU/blob/master/LICENSE"><img src="images/license-Anti996-blue.svg" /></a>
+</p>
+
+    </div>
+  </div>
+
+  <script type="text/javascript" src="javascripts/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/responsive-tables.js"></script>
+  <script type="text/javascript" src="javascripts/guides.js"></script>
+  <script type="text/javascript" src="javascripts/acoustic_grand_piano-ogg.js"></script>
+
+  <!-- ./node_modules/gulp/bin/gulp.js build -\-brushes=bash,cpp,css,javascript,java,plain,python,ruby,scala,sql,xml -->
+  <!-- uglifyjs syntaxhighlighter.js  -\-output syntaxhighlighter.min.js -->
+  <script type="text/javascript" src="javascripts/syntaxhighlighter.min.js"></script>
+  <script type="text/javascript" src="javascripts/tonal.min.js"></script>
+  <script type="text/javascript" src="javascripts/Tone.min.js"></script>
+  <script type="text/javascript" src="javascripts/svg.min.js"></script>
+  <script type="text/javascript" src="javascripts/chordy-svg.min.js"></script>
+  <script type="text/javascript" src="javascripts/chord.js"></script>
+  <script type="text/javascript" src="javascripts/gitalk.min.js"></script>
+  <script type="text/javascript" src="javascripts/load_docs.js"></script>
+  <script type="text/javascript" src="javascripts/asciinema-player.js"></script>
+  <script type="text/javascript" src="javascripts/Treant.js"></script>
+  <script type="text/javascript" src="javascripts/raphael.min.js"></script>
+  <script type="text/javascript" src="javascripts/flowchart.min.js"></script>
+  <script type="text/javascript" src="javascripts/flowchart_generator.js"></script>
+  <script type="text/javascript" src="javascripts/tree_generator.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115746206-1"></script>
+  <script type="text/javascript" src="javascripts/abcjs_midi_5.1.2-min.js"></script>
+  <script type="text/javascript" src="javascripts/music_generator.js"></script>
+  <script type="text/javascript" src="javascripts/zoom.min.js"></script>
+  <script type="text/javascript" src="javascripts/zoom_init.js"></script>
+  <script type="text/javascript" src="javascripts/transition.js"></script>
+  <script type="text/javascript" src="javascripts/chart.js"></script>
+  <script type="text/javascript" src="javascripts/chart_generator.js"></script>
+  <script type="text/javascript" src="javascripts/webfont.js"></script>
+  <script type="text/javascript" src="javascripts/snap.svg-min.js"></script>
+  <script type="text/javascript" src="javascripts/underscore-min.js"></script>
+  <script type="text/javascript" src="javascripts/sequence-diagram-min.js"></script>
+  <script type="text/javascript" src="javascripts/diagram_generator.js"></script>
+
+  <script type="text/javascript">
+    syntaxhighlighterConfig = {
+      autoLinks: false,
+    };
+
+    $(guidesIndex.bind);
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-115746206-1');
+  </script>
+
+  <script type="text/javascript">
+    var locationId = (location.pathname).split("/").pop().substring(0, 49);
+
+    if (locationId) {
+      var language = window.location.search.match("lang=en") ? "en" : "zh-CN"
+
+      if (window.location.href.match("github")) {
+        var gitalk = new Gitalk({
+          clientID: '85c5f833b04d6d470db9',
+          clientSecret: 'b41619fc891132558550103056197eb30baebab5',
+          repo: 'blog-github-page-comments',
+          owner: 'dengqinghua',
+          admin: ['dengqinghua'],
+          id: locationId,
+          distractionFreeMode: true,
+          language: language
+        });
+      } else {
+        var gitalk = new Gitalk({
+          clientID: '0f5824fe1c09851e9781',
+          clientSecret: '61710a77ee98cddce06f408a398f05c8622e9575',
+          repo: 'blog_comments',
+          owner: 'dengqinghua',
+          admin: ['dengqinghua'],
+          id: locationId,
+          distractionFreeMode: true,
+          language: language
+        });
+      }
+
+      gitalk.render('comment');
+    }
+  </script>
+</body>
+</html>
